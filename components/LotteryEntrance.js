@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useMoralis, useWeb3Contract } from "react-moralis";
-import { abi, contractAddresses } from "@/constants";
+import { abi, contractAddresses } from "../constants";
 import { ethers } from "ethers";
 import { useNotification } from "web3uikit";
 // Have a function to enter the Lottery
